@@ -55,3 +55,5 @@ pip install -r requirements.txt
 python main.py
 ```
 
+It is necessary to download Tor Browser and put the folder Browser on the components folder. This way it will be possible to do searches.
+To visualize the results from your search, change the results.db from the folder db for the results.db from the system folder.
