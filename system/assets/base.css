@@ -1,0 +1,141 @@
+html,body {
+    overflow: hidden;
+}
+
+#menu {
+    z-index: 0;
+}
+
+/* Padding for logo */
+#logo {
+    padding-left: 1em;
+}
+
+
+/* Tab container small size and black */
+
+.tab-container {
+    height: 1em !important;
+    padding-bottom: 1.5em !important;
+}
+
+.tab {
+    padding-top: 0 !important;
+}
+
+.tab.tab--selected{
+    border-top: 2px solid #000000 !important;
+}
+
+
+/* button and menu same height */
+.btn-secondary {
+    height: 6vh;
+}
+
+.row {
+    margin-top: 0 !important;
+}
+
+.navbar {
+    height: 6vh;
+    padding: 0;
+}
+
+.nav-link {
+    padding:0 !important;
+    margin:0;
+}
+
+
+/* Fix buttons layout */
+.col-3 {
+    height: 8vh;
+}
+
+.col-3 a {
+    padding: 0;
+}
+
+/* Rows main layout */
+.columns {
+    float: left;
+    box-sizing: border-box; }
+
+
+/* Select page above menu */
+.previous-next-container {
+    margin-top: -4.5vh;
+    margin-left: 45vh;
+    position: absolute;
+    z-index: 10;
+}
+
+.svg-inline--fa{
+    color: black;
+}
+.page-number {
+    color: white;
+    font-size: large;
+}
+div.last-page {
+    color: white;
+}
+
+.current-page {
+    height: 4vh;
+    margin:0;
+    padding:0;
+}
+
+.current-page::placeholder {
+    font-size: x-large;
+}
+    
+/* tooltip size */
+.dash-table-tooltip {
+    max-width: 500px !important;
+}
+
+
+/* Table */
+tbody {
+    float: right;
+    padding-right: 0em;
+
+}
+
+.dash-table-container {
+    min-width: 40% !important;
+}
+
+.cell-table > tbody {
+    display:block !important;
+    padding-left: 3em;
+}
+
+.cell-table {
+    display:block !important
+}
+
+.row.row-1 {
+    display:block !important;
+    min-width: 84vh !important;
+}
+
+.row.row-0 {
+    
+    display:block !important
+}
+
+.dash-spreadsheet td div {
+    line-height: 1.9vh !important;
+    max-height: 7.8vh !important; min-height: 7.8vh !important; height: 7.8vh !important;
+    display: block !important;
+    overflow-y: hidden !important;
+}
+
+
+#delete-article-button {
+    height: 6vh;
+}
